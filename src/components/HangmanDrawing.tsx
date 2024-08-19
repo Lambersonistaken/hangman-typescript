@@ -56,9 +56,10 @@ const RIGHT_LEG =
         height:"10px",
         background:"black",
         position:"absolute",
-        top:"255px",
+        top:"225px",
         right:"-90px",
-        rotate:"30deg"
+        rotate:"30deg",
+        transformOrigin:"left bottom"
     }}/>
 )
 
@@ -69,9 +70,10 @@ const LEFT_LEG =
         height:"10px",
         background:"black",
         position:"absolute",
-        top:"255px",
+        top:"225px",
         right:"0px",
-        rotate:"-30deg"
+        rotate:"-30deg",
+        transformOrigin:"right bottom"
     }}/>
 )
 
