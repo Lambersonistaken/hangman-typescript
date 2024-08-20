@@ -20,10 +20,7 @@
     opacity: .3;
 }
 
-.btn:hover:not(:disabled) {
-    background-color: hsl(200, 100%, 75%);
-}
-
+.btn:hover:not(:disabled),
 .btn:focus:not(:disabled) {
     background-color: hsl(200, 100%, 75%);
 }
